@@ -1,0 +1,98 @@
+@charset "utf-8";
+/*Outros*/
+*{
+    text-align: left;
+    color: black;
+}
+.seção_1{
+    background-color: dimgray;
+    color: transparent;
+    padding: 10px;
+    padding: 10px;
+    border: 5px black solid;
+}
+.seção_2{
+    background-color: dimgray;
+    color: transparent;
+    float: right;
+    padding: 10px;
+    border: 5px black solid;
+    margin: 5px;
+}
+body{
+    background-color: dimgray;
+    color: black;
+}
+h1{
+    background-color: transparent;
+    color: black;
+    text-align: center;
+    font-family: algerian, 'Arial Rounded MT Bold', arial;
+}
+footer{
+    background-color: transparent;
+    color: black;
+    text-align: left;
+    padding: 15px;
+    border: 5px;
+    margin: 20px;
+    font-size: 25px;
+    font-family: font-family, 'Arial Rounded MT Bold', arial, algerian;
+}
+/*Navegador*/
+button{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: none;
+    margin: 5px;
+    
+}
+button:hover{
+    background-color: transparent;
+    color: transparent;
+    text-decoration: none;
+}
+button:active{
+    background-color: grey;
+    color: DarkSlateGray;
+    text-decoration: none;
+}
+/*Imagem*/
+.imagem{
+    float: left;
+    height: 150px;
+    width: 180px;
+    margin-right: 10px;
+
+}
+/*Texto*/
+.texto{
+    color: black;
+    text-align: center;
+    font-family: 'Arial Rounded MT Bold', arial, algerian;
+   
+}
+/*Grids*/
+.grid_imagem{
+    padding: 10px;
+    border: 5px black solid;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, 55px);
+    clear: both;
+}
+/*Formulario*/
+.form{
+    background-color: transparent;
+    color: black;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+}
+label{
+    background-color: transparent;
+    color: black;
+}
